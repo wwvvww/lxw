@@ -1,21 +1,4 @@
 <?php
-/****************************************************************/
-/*                                                              */
-/* osfm Static                                                  */
-/* ----------                                                   */
-/*                                                              */
-/* This script will perform basic functions on files            */
-/* Functions include, List, Open, View, Edit, Create, Upload,   */
-/*   Rename and Move.                                           */
-/*                                                              */
-/* This version has had its SQL striped out of it.              */
-/*                                                              */
-/*                                                              */
-/* Written by Devin Smith, July 1st 2003                        */
-/* http://www.osfilemanager.com                                 */
-/* http://www.arzy.net                                          */
-/*                                                              */
-/****************************************************************/
 
 
 /****************************************************************/
@@ -45,7 +28,7 @@ $bgcolor3c = "#003399";
 $txtcolor1c = "#000000";
 $txtcolor2c = "#003399";
 $filefolder = "./";
-$sitetitle = 'OSFM Static';
+$sitetitle = 'filemanager';
 $user = 'adm';
 $pass = 'past';
 
@@ -724,7 +707,7 @@ function logout() {
 /****************************************************************/
 function mainbottom() {
   echo "</table></table>\n"
-      ."<table width=100%><tr><td align=right><font class=copyright>Copyright &copy 2003 - ".date('Y')." <a href=http://www.osfilemanager.com>osFileManager</a>, <a href=http://www.arzy.net>Arzy, LLC</a></font></table>\n"
+      ."<table width=100%><tr><td align=right><font class=copyright>Copyright &copy ".date('Y')."\n"
       ."</table></table></body>\n"
       ."</html>\n";
   exit;
