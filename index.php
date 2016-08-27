@@ -73,7 +73,7 @@ a:active {
 </script>
 <?php 
 if($_POST['submit5']){
-if($_POST['pwd']=="admin"){
+if($_POST['pwd']=="adm"){
 $_SESSION['pwd']=$_POST['pwd'];
 echo "<script language=javascript>alert('登陆成功！');window.location='index.php'</script>";
 }
