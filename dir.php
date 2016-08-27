@@ -1,5 +1,3 @@
 <?php
-$dir="./";
-$file=scandir($dir);
-print_r($file);
+echo dirname(dirname(__FILE__)); 
 ?>
