@@ -6,7 +6,7 @@ session_start();
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
 <meta name="Copyright" content="60IE.NET CopyRight 2013" />
-<title>夏日PHP文本留言本</title>
+<title>文本留言本</title>
 <style type="text/css">
 <!--
 body,td,th {
@@ -292,15 +292,15 @@ $content = file_get_contents("info.txt");
  </table>
  <table width="550" border="0" align="center" cellpadding="5" cellspacing="1" bgcolor="#B3B3B3">
    <tr>
-     <td bgcolor="#FFFFFF">软件版本(在线帮助):<!--删除后将无法获得最新版本--><script type="text/javascript" src="http://www.04ie.com/net/txtlyb0_0_3.js"></script></td>
+     <td bgcolor="#FFFFFF">软件版本<!--删除后将无法获得最新版本--></td>
    </tr>
  </table>
 </form>
 <?php } ?>
 <table width="550" height="20" border="0" align="center" cellpadding="5" cellspacing="1" bgcolor="#CCCCCC">
   <tr>
-    <td align="left" bgcolor="#FFFFFF">&nbsp;Copyright @ 2013-2015 您的网址.com ALL Rights Reserved
-      <!--本源码免费开源，保留版权信息你将获得本站免费技术支持和程序升级服务。--><script type="text/javascript" src="http://www.04ie.com/net/cpt.js"></script></td>
+    <td align="left" bgcolor="#FFFFFF">&nbsp;Copyright @ 2008-2016 您的网址.com ALL Rights Reserved
+      </td>
   </tr>
 </table>
 </body>
