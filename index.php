@@ -299,7 +299,7 @@ $content = file_get_contents("info.txt");
 <?php } ?>
 <table width="550" height="20" border="0" align="center" cellpadding="5" cellspacing="1" bgcolor="#CCCCCC">
   <tr>
-    <td align="left" bgcolor="#FFFFFF">&nbsp;Copyright @ 2008-2016 您的网址.com ALL Rights Reserved
+    <td align="left" bgcolor="#FFFFFF">&nbsp;Copyright @ 2016 您的网址.com ALL Rights Reserved
       </td>
   </tr>
 </table>
