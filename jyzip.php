@@ -413,11 +413,8 @@ $password = "admin";
    	    <span class="RAR_ZIP">*&nbsp;遗憾的是它不支持RAR格式在线解压！但使用者可以把文件压缩为ZIP格式&nbsp;*</span>
         </p>
         
-        <!-- xi-bo.tk Baidu tongji analytics -->
-<script type="text/javascript">
-var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
-document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3F16d25041c88f4d0ea06b0d042882cd92' type='text/javascript'%3E%3C/script%3E"));
-</script>
+        <!-- cnzz tongji analytics -->
+<script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_1909730'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s4.cnzz.com/stat.php%3Fid%3D1909730%26show%3Dpic1' type='text/javascript'%3E%3C/script%3E"));</script>
         
        
    	  <div id="eincy"></div>
