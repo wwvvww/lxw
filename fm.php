@@ -29,8 +29,8 @@ $txtcolor1c = "#000000";
 $txtcolor2c = "#003399";
 $filefolder = "./";
 $sitetitle = 'filemanager';
-$user = 'adm';
-$pass = 'past';
+$user = 'b09c600fddc573f117449b3723f23d64';
+$pass = '68e2d83709f317938b51e53f7552ed04';
 
 
 
@@ -64,7 +64,7 @@ if ($folder == '') {
 /****************************************************************/
 
 if ($_COOKIE['user'] != $user || $_COOKIE['pass'] != md5($pass)) {
-	if ($_REQUEST['user'] == $user && $_REQUEST['pass'] == $pass) {
+	if (md5($_REQUEST['user']) == $user && md5($_REQUEST['pass']) == $pass) {
 	    setcookie('user',$user,time()+60*60*24*1);
 	    setcookie('pass',md5($pass),time()+60*60*24*1);
 	} else {
