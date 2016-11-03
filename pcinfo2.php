@@ -4,7 +4,7 @@ exec("SYSTEMINFO",$result);
 //数组写入文本文件 
 $time = time();
 //使用fopen("$time.txt",'w');可以以当前时间命令文件,以单引号刚只是变量
-$fp = fopen("$time.txt",'w+');
+$fp = fopen("$time.txt",'a+');
 
 fwrite($fp,var_export($result,true));
 fclose($fp);
