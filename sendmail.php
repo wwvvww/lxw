@@ -15,7 +15,7 @@
 	//$smtpserver = "smtp.126.com";//SMTP服务器
 	$smtpserver = "localhost";//SMTP服务器
 	$smtpserverport =25;//SMTP服务器端口
-	$smtpusermail = "new2008oh@126.com";//SMTP服务器的用户邮箱
+	$smtpusermail = "ad@llxxw.com";//SMTP服务器的用户邮箱
 	$smtpemailto = $_POST['toemail'];//发送给谁
 	$smtpuser = "wwvvww";//SMTP服务器的用户帐号
 	$smtppass = "vvv456789";//SMTP服务器的用户密码
@@ -34,7 +34,7 @@
 		exit();
 	}
 	echo "恭喜！邮件发送成功！！";
-	echo "<a href='index.html'>点此返回</a>";
+	echo "<a href='mail_index.html'>点此返回</a>";
 	echo "</div>";
 
 ?>
