@@ -4,4 +4,6 @@ echo "-";
 echo date("g")+8;
 echo "-";
 echo date("i:s");
+echo "-";
+echo date("c");
 ?>
