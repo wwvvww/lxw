@@ -3,5 +3,6 @@ echo date("Y-m-d");
 
 echo "--";
 echo date("h")+8;
-echo date("m:s");
+echo "--";
+echo date("g:i:s");
 ?>
