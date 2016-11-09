@@ -1,5 +1,5 @@
 <?php
 echo date("Y");
 echo "--------";
-echo date("YY");
+echo date("Y/D");
 ?>
