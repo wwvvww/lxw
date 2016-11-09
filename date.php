@@ -1,5 +1,6 @@
 <?php
 echo date("Y-m-d");
-echo "--";
-echo date("g:i:s")+8;
+echo "-";
+echo date("g")+8;
+echo date("i:s");
 ?>
