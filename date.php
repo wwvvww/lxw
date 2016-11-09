@@ -1,5 +1,5 @@
 <?php
-echo date("Y");
+echo date("Y-m-d-h-s");
 echo "--";
 echo date("d")+2;
 ?>
