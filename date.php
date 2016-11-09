@@ -1,9 +1,4 @@
 <?php
-echo date("Y-m-d");
-echo "-";
-echo date("g")+8;
-echo "-";
-echo date("i:s");
-echo "-";
 echo date("c");
+echo '<br />'.date("Y");
 ?>
